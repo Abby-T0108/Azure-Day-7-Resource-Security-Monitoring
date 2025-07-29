@@ -1,0 +1,23 @@
+Azure Day 7: Resource Security & Monitoring Setup
+
+Project Overview  
+In this project, I deployed a secure and monitored web application on Azure. This involves setting up security features such as access control, encryption and tags as well as creating a security alert system for monitoring. The goal is to create a scalable, secure and easily monitored cloud infrastructure.
+
+Steps Involved:
+
+1. Secure Storage Account Setup: I created a secure Azure Storage Account with public access disabled and secure transfer required. The storage account uses GRS redundancy and supports a minimum TLS version of 1.2.
+
+2. Application Insights Setup: I deployed Application Insights for performance and security monitoring. The resource was configured in the Classic mode.
+
+3. Security Features Configuration: Configured IAM roles, encrypted storage and network security settings.
+
+4. Tagging Resources: I applied resource tags such as `Environment`, `Project`, `Day` and `Owner` for better resource management.
+
+5. Security Alerts: Set up a monitoring alert rule for failed requests to the storage account to monitor potential security risks.
+
+Key Takeaways
+Implementing a comprehensive security setup for cloud resources is essential for preventing unauthorized access.
+Monitoring and tagging help with better resource management and issue detection.
+
+LinkedIn
+[https://www.linkedin.com/feed/update/urn:li:activity:7356068995810103298/]
